@@ -18,8 +18,6 @@ export const UseGetPokemon = () => {
     });
 
     const result = await Promise.all(promise)
-    // console.log('🚀  --->  file: UseGetPokemon.jsx:21  --->  getAllPokemon  --->  result:', result)
-
     setPokemonsData(result)
   };
 
