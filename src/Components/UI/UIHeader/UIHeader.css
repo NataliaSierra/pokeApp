@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #c8f5d9ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .pokeapp-header{
+    width: 100%;
+    height: 10rem;
+    background-color: #c8f5d9ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.pokeapp-menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+
+.header-pokeapp-logo {
+    width: 20%;
+}
+
+.pokeapp-logo {
+    width: 65%;
+
+}
+.pokeapp-menu-ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+} 
+
+li a {
+    text-decoration: none;
+    color:#048937;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.a-pokeapp-menu:hover {
+    color: #FFCC00;
+}
+.search-bar {
+    width: 25%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.pokeapp-search-bar {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+}
+
+.input-search-bar {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #220c0d;
+    transition: .3s ease;
+}
+
+.input-search-bar::placeholder {
+    color: #aaaaaf;
+}
+
+.input-search-bar:hover {
+    outline: none;
+    transition: .6s ease;
+    border-color: #55be7d58;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(59, 214, 121, 0.1);
+}
+
+.icon-search-bar {
+    position: absolute;
+    left: 1rem;
+    fill: #aaaaaf;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+
+
